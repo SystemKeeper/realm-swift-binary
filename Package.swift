@@ -2,7 +2,7 @@
 import PackageDescription
 
 let realmVersion = "10.46.0"
-let realmChecksum = "c429db7b2b6ea209a962930db7b28dea2134ccd7520daef9e79c6b8ca3d86a77"
+let realmChecksum = "a2d8978b65757e862af326846b550c2e314f821fb7485573b72ac18c2d20006c"
 
 let package = Package(
     name: "Realm",
@@ -17,7 +17,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "Realm",
-            url: "https://github.com/realm/realm-swift/releases/download/v\(realmVersion)/RealmSwift@15.2.spm.zip",
+            url: "https://github.com/realm/realm-swift/releases/download/v\(realmVersion)/Realm.spm.zip",
             // Generate checksum with `swift package compute-checksum WebRTC.xcframework.zip`
             checksum: realmChecksum
         ),
